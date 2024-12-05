@@ -1,0 +1,218 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chillzard - The Chillest Memecoin</title>
+  <style>
+    /* Importing Pokémon-like font */
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', cursive;
+      background: linear-gradient(145deg, #d6242e, #1e81b0); /* Fiery red to chill blue */
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 2rem;
+      background: rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #ffcb05; /* Pokémon yellow */
+      text-shadow: 2px 2px 0 #003a70, 0px 0px 10px rgba(255, 255, 255, 0.5);
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      color: #e0e0e0;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 4rem 2rem;
+    }
+
+    .hero img {
+      max-width: 100%;
+      max-height: 500px;
+      border-radius: 20px;
+      border: 5px solid #ffcb05;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    }
+
+    .cta {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 1rem 3rem;
+      background: linear-gradient(145deg, #f7b500, #f58d00); /* Chillzard button colors */
+      color: #003a70; /* Pokémon blue */
+      border: 2px solid #003a70;
+      border-radius: 25px;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: 0px 4px 0px #003a70;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .cta:hover {
+      transform: scale(1.1);
+    }
+
+    .cta:active {
+      transform: translateY(4px);
+      box-shadow: none;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      color: #ffcb05;
+      text-shadow: 2px 2px 0 #003a70, 0px 0px 10px rgba(255, 255, 255, 0.5);
+    }
+
+    .section p {
+      font-size: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .socials {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .socials a {
+      font-size: 1rem;
+      text-decoration: none;
+      color: #003a70;
+      background: #ffcb05;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      border: 2px solid #003a70;
+      text-transform: uppercase;
+      transition: transform 0.2s;
+      box-shadow: 0px 4px 0px #003a70;
+    }
+
+    .socials a:hover {
+      transform: scale(1.1);
+    }
+
+    .socials a:active {
+      transform: scale(1);
+      box-shadow: none;
+    }
+
+    .contract-address {
+      font-family: monospace;
+      font-size: 1rem;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 0.5rem;
+      border-radius: 5px;
+      display: inline-block;
+      color: #ffcb05;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .hero img {
+        max-height: 300px;
+      }
+
+      .cta {
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+      }
+
+      .section h2 {
+        font-size: 1.5rem;
+      }
+
+      .section p {
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .cta {
+        padding: 0.6rem 1.5rem;
+      }
+
+      .section p {
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chillzard</h1>
+    <p>The memecoin that's fire and ice! 🔥❄️</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="https://via.placeholder.com/1000x500" alt="Chillzard Artwork Placeholder">
+      <button class="cta" onclick="alert('Chillzard is waiting for you! 🚀')">Catch Chillzard</button>
+    </section>
+
+    <section class="section">
+      <h2>About Chillzard</h2>
+      <p>Welcome to Chillzard, the memecoin that’s blazing with fire and keeping it cool. 
+         Whether you’re a crypto trainer or just chilling, Chillzard is here for the ride! 🌟
+      </p>
+      <p class="contract-address">Contract Address: 0xCHILLZARD00000000000000000000000000</p>
+    </section>
+
+    <section class="section">
+      <h2>Join the Chill Squad</h2>
+      <p>Step into the Chillzard trainer community, where memes meet crypto. Connect, share, and chill with us!</p>
+      <div class="socials">
+        <a href="#" target="_blank">Twitter</a>
+        <a href="#" target="_blank">Discord</a>
+        <a href="#" target="_blank">Telegram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Chillzard. All Rights Reserved. Stay chill!</p>
+  </footer>
+</body>
+</html>
